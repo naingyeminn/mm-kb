@@ -9,6 +9,7 @@ case $var in
 		"$SUDO" "mkdir -p /usr/share/fonts/mm"
 		"$SUDO" "cp -fv ./src/fonts/mm3.ttf /usr/share/fonts/mm"
 		"$SUDO" "cp -fv ./src/fonts/tharlon.ttf /usr/share/fonts/mm"
+		"$SUDO" "cp -fv ./src/fonts/Tharlon-Regular.ttf /usr/share/fonts/mm"
 		gconftool --type list --list-type String --set /desktop/ibus/general/preload_engines "[mm-myanmar3]"
 		ibus-daemon -x &
 		im-switch -s ibus
@@ -30,6 +31,7 @@ case $var in
 		"$SUDO" "mkdir -p /usr/share/fonts/mm"
 		"$SUDO" "cp -fv ./src/fonts/mm3.ttf /usr/share/fonts/mm"
 		"$SUDO" "cp -fv ./src/fonts/tharlon.ttf /usr/share/fonts/mm"
+		"$SUDO" "cp -fv ./src/fonts/Tharlon-Regular.ttf /usr/share/fonts/mm"
 		"$SUDO" "cp -fv ./src/fonts/ZawgyiOne2008.ttf /usr/share/fonts/mm"
 		gconftool --type list --list-type String --set /desktop/ibus/general/preload_engines "[mm-myanmar3,mm-zawgyi]"
 		ibus-daemon -x &
