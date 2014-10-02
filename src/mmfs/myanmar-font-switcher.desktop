@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Myanmar Font Switcher
+Comment=Change Myanmar fonts as System Fallback Font
+Keywords=fonts;switcher;myanmar;unicode;
+Icon=preferences-desktop-font
+Exec=mmfs %u
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Utility;

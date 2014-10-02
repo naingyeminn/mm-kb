@@ -1,0 +1,22 @@
+#!/bin/bash
+FONT=$(zenity --list --radiolist --title="Myanmar Font Switcher" --text="Choose a System Fallback Font you like..." --column="Check:" --column="Font Name:" TRUE "Myanmar3" FALSE "TharLon" FALSE "Zawgyi-One" FALSE "Noto Sans Myanmar" FALSE "Myanmar Census" FALSE "MON3 Anonta 1")
+
+CONFIG=~/.config/fontconfig/fonts.conf
+if [[ $FONT ]]; then
+	if [ -f ~/.fonts.conf ]; then
+		rm ~/.fonts.conf
+		cp /usr/share/mmfs/fonts.conf $CONFIG
+		echo ".fonts.conf is deprecated. Replaced new config in .config/fontconfig"
+	fi
+	if [ ! -f $CONFIG ]; then
+		mkdir -p ~/.config/fontconfig
+		cp /usr/share/mmfs/fonts.conf $CONFIG
+		echo "Found no config. Created new."
+	fi
+	sed -i "s/Myanmar3/$FONT/g" $CONFIG
+	sed -i "s/TharLon/$FONT/g" $CONFIG
+	sed -i "s/Zawgyi-One/$FONT/g" $CONFIG
+	sed -i "s/Noto Sans Myanmar/$FONT/g" $CONFIG
+	sed -i "s/Myanmar Census/$FONT/g" $CONFIG
+	sed -i "s/MON3 Anonta 1/$FONT/g" $CONFIG
+fi
