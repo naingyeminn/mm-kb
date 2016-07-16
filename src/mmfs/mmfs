@@ -1,5 +1,5 @@
 #!/bin/bash
-FONT=$(zenity --list --radiolist --title="Myanmar Font Switcher" --text="Choose a System Fallback Font you like..." --column="Check:" --column="Font Name:" TRUE "Myanmar3" FALSE "TharLon" FALSE "Zawgyi-One" FALSE "Noto Sans Myanmar" FALSE "Myanmar Census" FALSE "MON3 Anonta 1")
+FONT=$(zenity --list --radiolist --title="Myanmar Font Switcher" --text="Choose a System Fallback Font you like..." --column="Check:" --column="Font Name:" TRUE "Myanmar3" FALSE "Ours-Unicode" FALSE "TharLon" FALSE "Zawgyi-One" FALSE "Noto Sans Myanmar" FALSE "Myanmar Census" FALSE "MON3 Anonta 1")
 
 CONFIG=~/.config/fontconfig/fonts.conf
 if [[ $FONT ]]; then
@@ -14,6 +14,7 @@ if [[ $FONT ]]; then
 		echo "Found no config. Created new."
 	fi
 	sed -i "s/Myanmar3/$FONT/g" $CONFIG
+	sed -i "s/Ours-Unicode/$FONT/g" $CONFIG
 	sed -i "s/TharLon/$FONT/g" $CONFIG
 	sed -i "s/Zawgyi-One/$FONT/g" $CONFIG
 	sed -i "s/Noto Sans Myanmar/$FONT/g" $CONFIG
