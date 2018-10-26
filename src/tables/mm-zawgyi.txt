@@ -77,7 +77,7 @@ SHOW_KEY_PROMPT = TRUE
 DISCARD_INVALID_KEY = FALSE
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*\|[{;:'",<>?/`
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()\|[]{;:'",<?/`
 
 ### Whether user are allow to define phrase, default is true
 USER_CAN_DEFINE_PHRASE = FALSE
@@ -137,6 +137,8 @@ w 	တ
 x 	ထ
 y 	ပ
 z 	ဖ
+###(a-z)All characters equal layout to AlphaZawgyi Keyboard Layout.
+
 
 A	ဗ
 B	ႀ
@@ -154,13 +156,13 @@ M	ၾ
 N	ၿ
 O	ဥ
 P	ဏ
-Q	ွ
-R	ၽ
+Q	 ႇ်
+R	ြၽ
 S	ွ
 T	ႊ
 U	႕
 V	ဠ
-W	ၽ
+W	ႊၽ
 X	ဌ
 Y	႔
 Z	ဇ
@@ -174,15 +176,19 @@ Z	ဇ
 8	၈
 9	၉
 0	၀
+###(A-Z & 1-0) All characters layout equal to AlphaZawgyi Keyboard Layout except Q,R,W.
+
 
 !	ဍ
 @	႑
 #	ဋ
-$	၌
+$	က်ပ္
 %	%
 ^	/
 &	ရ
 *	ဂ
+(	(
+)	)
 \	၏
 |	႒
 [	ဟ
@@ -193,10 +199,12 @@ $	၌
 "	ဓ
 ,	ယ
 <	ဝ
->	ဈ
 ?	၊
 /	။
 `	`
+###(!-`)All characters layout equal to AlphaZawgyi Keyboard Layout except $ and >
+
+
 END_CHAR_PROMPTS_DEFINITION
 END_DEFINITION
 
@@ -244,13 +252,13 @@ M	ၾ	1000
 N	ၿ	1000
 O	ဥ	1000
 P	ဏ	1000
-Q	ွ	1000
-R	ၽ	1000
+Q	 ႇ်	1000
+R	ြၽ	1000
 S	ွ	1000
 T	ႊ	1000
 U	႕	1000
 V	ဠ	1000
-W	ၽ	1000
+W	ႊၽ	1000
 X	ဌ	1000
 Y	႔	1000
 Z	ဇ	1000
@@ -267,11 +275,13 @@ Z	ဇ	1000
 !	ဍ	1000
 @	႑	1000
 #	ဋ	1000
-$	၌	1000
+$	က်ပ္	1000
 %	%	1000
 ^	/	1000
 &	ရ	1000
 *	ဂ	1000
+(	(	1000
+)	)	1000
 \	၏	1000
 |	႒	1000
 [	ဟ	1000
@@ -282,7 +292,6 @@ $	၌	1000
 "	ဓ	1000
 ,	ယ	1000
 <	ဝ	1000
->	ဈ	1000
 ?	၊	1000
 /	။	1000
 `a	ဈ	1000
@@ -290,7 +299,6 @@ $	၌	1000
 `c	ၡ	1000
 `d	ႎ	1000
 `e	ၷ	1000
-`f	ႍ	1000
 `i	၍	1000
 `j	ႃ	1000
 `k	ႉ	1000
@@ -307,7 +315,7 @@ $	၌	1000
 `v	ႅ	1000
 `w	ၱ	1000
 `x	ၳ	1000
-`y	ၸ	1000
+`y	၌	1000
 `z	ၹ	1000
 `1	ဎ	1000
 `2	ၭ	1000
@@ -317,31 +325,30 @@ $	၌	1000
 `7	႐	1000
 `8	ၢ	1000
 `9	ဦ	1000
-`-	႗	1000
-`=	ၮ	1000
-`[	[	1000
-`]	]	1000
+`0	ႅ	1000
+`[	႗	1000
+`]	ၮ	1000
 `'	ၵ	1000
-`"	ၶ	1000
 `/	?	1000
 
-`!	ၯ	1000
-`$	ဪ	1000
-`Q	ၧ	1000
-`W	ၲ	1000
-`E	႖	1000
-`Y	၌	1000
-`U	ဉ	1000
-`I	ၪ	1000
-`P	ၰ	1000
-`A	ၺ	1000
-`S	ႇ	1000
-`D	ႌ	1000
-`J	ႄ	1000
-`L	ႋ	1000
-`'	ၶ	1000
-`Z	ၨ	1000
-`C	ၣ	1000
-`N	ၩ	1000
-`M	ႂ	1000
+~1	ၯ	1000
+~4	ဣ	1000
+~5	ဪ	1000
+~q	ၧ	1000
+~w	ၲ	1000
+~e	႖	1000
+~y	ၸ	1000
+~u	ဉ	1000
+~i	ၪ	1000
+~p	ၰ	1000
+~a	ၺ	1000
+~s	ႇ	1000
+~d	ႌ	1000
+~j	ႄ	1000
+~l	ႋ	1000
+~'	ၶ	1000
+~z	ၨ	1000
+~c	ၣ	1000
+~n	ၩ	1000
+~m	ႂ	1000
 END_TABLE
