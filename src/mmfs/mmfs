@@ -1,7 +1,24 @@
 #!/bin/bash
-FONT=$(zenity --list --radiolist --title="Myanmar Font Switcher" --text="Choose a System Fallback Font you like..." --column="Check:" --column="Font Name:" TRUE "Myanmar3" FALSE "Ours-Unicode" FALSE "TharLon" FALSE "Zawgyi-One" FALSE "Noto Sans Myanmar" FALSE "Myanmar Census" FALSE "MON3 Anonta 1")
-
 CONFIG=~/.config/fontconfig/fonts.conf
+##find out what's the current font and update the radio list with the current font checked on app start
+declare -a checkList=(	Myanmar3
+			Ours-Unicode
+			TharLon
+			Zawgyi-One
+			Noto\ Sans\ Myanmar
+			Myanmar\ Census
+			MON3\ Anonta\ 1)
+
+for i in "${!checkList[@]}"
+do
+	##check the current font in fontconfig
+	if grep -q "${checkList[$i]}" "$CONFIG"; then
+		checkList[$i]=true ##update the list with the current font checked
+	fi
+done
+
+FONT=$(	zenity --list --radiolist --title="Myanmar Font Switcher" --width=100 --height=300 2> /dev/null --text="Choose a System Fallback Font you like..." --column="Check:" --column="Font Name:" "${checkList[0]}" "Myanmar3" "${checkList[1]}" "Ours-Unicode" "${checkList[2]}" "TharLon" "${checkList[3]}" "Zawgyi-One" "${checkList[4]}" "Noto Sans Myanmar" "${checkList[5]}" "Myanmar Census" "${checkList[6]}" "MON3 Anonta 1")
+
 if [[ $FONT ]]; then
 	if [ -f ~/.fonts.conf ]; then
 		rm ~/.fonts.conf
