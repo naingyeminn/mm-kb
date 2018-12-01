@@ -1,16 +1,17 @@
 Myanmar Keyboards
 =================
 
-#Introduction
+## Introduction
 
 - This package contains two types of Burmese Keyboard, Unicode and ZawGyi-One.
 
-#Installation
+## Installation
 
 - Type the following command one after another.
 ```
 $ git clone https://github.com/kaiz16/mm-kb.git
 $ cd mm-kb
+$ sudo apt install make
 $ sudo make install
 $ ibus-daemon -rdx
 $ im-config -n ibus
@@ -28,11 +29,17 @@ Now you can add the keyboard as follow.
 
 - Whatever you are using, Burmese (mm-myanmar3) or Burmese (mm-zawgyi), you can switch between Burmese and English characters by a single press of **Left Shift** key.
 
-##Changing System Fallback Font
+## Changing System Fallback Font
 
 After installation, your system font will be changed into **ZawGyi-One**. If you want to switch to **Unicode** fonts, search **Myanmar Font Switcher** in Unity Dashboard and open it. You can change the font you want in there.
 
-##Credits
+## Uninstallation
+```
+$ cd mm-kb
+$ sudo make uninstall
+```
+
+## Credits
 
 ```
 Naing Ye` Minn
