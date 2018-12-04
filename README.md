@@ -9,13 +9,14 @@ Myanmar Keyboards
 
 - Type the following command one after another.
 ```
-$ git clone https://github.com/kaiz16/mm-kb.git
-$ cd mm-kb
+$ curl -OL https://github.com/naingyeminn/mm-kb/archive/master.zip
+$ unzip master.zip
+$ cd mm-kb-master
 $ sudo apt install make
 $ sudo make install
 $ ibus-daemon -rdx
 $ im-config -n ibus
-$ gsettings set org.freedesktop.ibus.panel show 0
+$ dconf load / < src/mm-zawgyi.ini
 ```
 Now you can add the keyboard as follow.
 
@@ -35,16 +36,18 @@ After installation, your system font will be changed into **ZawGyi-One**. If you
 
 ## Uninstallation
 ```
-$ cd mm-kb
+$ cd mm-kb-master
 $ sudo make uninstall
 ```
 
-## Credits
+## Contact
 
 ```
 Naing Ye` Minn
 naingyeminn@gmail.com
-nym@ubuntu-mm.net
-FreeNode IRC : yeminn
-website : http://nym.ubuntu-mm.net
+website : http://naingyeminn.com
 ```
+
+## Acknowledgement
+
+Thank you for your input and solution for Zawgyi Layout issue, Bro [Kaung Mon Htay](https://github.com/kaiz16).
