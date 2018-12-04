@@ -18,6 +18,15 @@ $ ibus-daemon -rdx
 $ im-config -n ibus
 $ dconf load / < src/mm-zawgyi.ini
 ```
+
+**Or**
+
+One-line installation
+
+```
+bash <(curl -L https://bit.ly/2zJ4ioe)
+```
+
 Now you can add the keyboard as follow.
 
 - Click on **Text Entry Settings...**
