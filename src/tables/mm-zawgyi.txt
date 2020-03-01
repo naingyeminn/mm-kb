@@ -30,6 +30,11 @@ LANGUAGES = my_MM
 ### The author of this table
 AUTHOR = Thura Hlaing <trhura@gmail.com>
 
+### Maintained by Naing Ye Minn <naingyeminn@gmail.com>
+
+### The symbol to be displayed in IM switchers
+SYMBOL = zg
+
 ### Prompt string to be displayed in the status area.
 STATUS_PROMPT = MM
 
@@ -86,10 +91,10 @@ USER_CAN_DEFINE_PHRASE = FALSE
 PINYIN_MODE = FALSE
 
 ### Single wildcard char, can have multiple chars.
-### SINGLE_WILDCARD_CHAR = ?
+SINGLE_WILDCARD_CHAR = `
 
 ### Multi wildcard char.
-### MULTI_WILDCARD_CHAR = *
+MULTI_WILDCARD_CHAR = ~
 
 ### The key strokes to split inputted string.
 ### SPLIT_KEYS = Return

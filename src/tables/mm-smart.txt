@@ -1,0 +1,412 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+### This file comes from xcin module.
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### License
+LICENSE = LGPL
+
+### Created by Naing Ye Minn <naingyeminn@gmail.com>
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 858cd0a5-093f-484c-81d1-a784e4d4aa1d
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20200301
+
+ICON = mm-myanmar3.svg
+
+### The default name of this table
+NAME = mm-smart
+
+### The local names of this table
+### NAME.my_MM =
+
+### Supported languages of this table
+LANGUAGES = my_MM
+
+### The author of this table
+AUTHOR = Naing Ye Minn <naingyeminn@gmail.com>
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = MM
+
+### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
+KEYBOARD_LAYOUT = US_Default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = FALSE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### If true then discard invalid key
+DISCARD_INVALID_KEY = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 7
+
+### Show key prompt if true
+SHOW_KEY_PROMPT = TRUE
+
+### Discard invalude key if true
+DISCARD_INVALID_KEY = FALSE
+
+### Valid input chars.
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*\|[{]};:'",<>`
+
+### Single wildcard char, can have multiple chars.
+### SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char.
+### MULTI_WILDCARD_CHAR = *
+
+### The key strokes to split inputted string.
+### SPLIT_KEYS = Return
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = space
+
+### The key strokes to select candidate phrases.
+SELECT_KEYS = 1,2,3,4,5,6,7,8,9
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Shift+less,Page_Up,comma,minus
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Shift+greater,Page_Down,period,equal,space
+
+### Define the prompts of each valid input char.
+BEGIN_CHAR_PROMPTS_DEFINITION
+a	ေ
+b	ဘ
+c 	ခ
+d	ိ
+e 	န
+f 	်
+g 	ါ
+h 	့
+i 	င
+j 	ြ
+k 	ု
+l 	ူ
+m 	ာ
+n 	ည
+o 	သ
+p 	စ
+q 	ဆ
+r 	မ
+s 	ျ
+t 	အ
+u 	က
+v 	လ
+w 	တ
+x 	ထ
+y 	ပ
+z 	ဖ
+A	ဗ
+B	ယ
+C	ဃ
+D	ီ
+E	ဣ
+F	္
+G	ွ
+H	ံ
+I	၍
+J	ဲ
+K	ဒ
+L	ဓ
+M	ဦ
+N	ဉ
+O	ဿ
+P	ဏ
+Q	ဈ
+R	၎
+S	ှ
+T	ဤ
+U	ဥ
+V	ဠ
+W	ဝ
+X	ဌ
+Y	၌
+Z	ဇ
+1	၁
+2	၂
+3	၃
+4	၄
+5	၅
+6	၆
+7	၇
+8	၈
+9	၉
+0	၀
+!	ဍ
+@	ၒ
+#	ဋ
+$	ၓ
+%	ၔ
+^	ၕ
+&	ရ
+[	ဟ
+]	ဩ
+\	၏
+{	ဧ
+}	ဪ
+|	ၑ
+;	း
+:	ဂ
+<	၊
+>	။
+`	ၐ
+~	ဎ
+END_CHAR_PROMPTS_DEFINITION
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+a	ေ	1000
+au	ကေ	500
+ac	ခေ	495
+a:	ဂေ	490
+aC	ဃေ	485
+ai	ငေ	480
+ap	စေ	475
+aq	ဆေ	470
+aZ	ဇေ	465
+aQ	ဈေ	460
+an	ညေ	455
+a#	ဋေ	450
+aX	ဌေ	445
+a!	ဍေ	440
+a~	ဎေ	435
+aP	ဏေ	430
+aw	တေ	425
+ax	ထေ	420
+aK	ဒေ	415
+aL	ဓေ	410
+ae	နေ	405
+ay	ပေ	400
+az	ဖေ	395
+aA	ဗေ	390
+ab	ဘေ	385
+ar	မေ	380
+aB	ယေ	375
+a&	ရေ	370
+av	လေ	365
+aW	ဝေ	360
+ao	သေ	355
+a[	ဟေ	350
+aV	ဠေ	345
+at	အေ	340
+a]	ဩေ	335
+a{	ဧေ	325
+b	ဘ	1000
+c	ခ	1000
+d	ိ	1000
+e	န	1000
+f	်	1000
+g	ါ	1000
+h	့	1000
+i	င	1000
+j	ြ	1000
+k	ု	1000
+l	ူ	1000
+m	ာ	1000
+n	ည	1000
+o	သ	1000
+p	စ	1000
+q	ဆ	1000
+r	မ	1000
+s	ျ	1000
+t	အ	1000
+u	က	1000
+v	လ	1000
+w	တ	1000
+x	ထ	1000
+y	ပ	1000
+z	ဖ	1000
+A	ဗ	1000
+B	ယ	1000
+C	ဃ	1000
+D	ီ	1000
+E	ဣ	1000
+F	္	1000
+G	ွ	1000
+H	ံ	1000
+I	၍	1000
+J	ဲ	1000
+K	ဒ	1000
+L	ဓ	1000
+M	ဦ	1000
+N	ဉ	1000
+O	ဿ	1000
+P	ဏ	1000
+Q	ဈ	1000
+R	၎	1000
+S	ှ	1000
+T	ဤ	1000
+U	ဥ	1000
+V	ဠ	1000
+W	ဝ	1000
+X	ဌ	1000
+Y	၌	1000
+Z	ဇ	1000
+1	၁	1000
+2	၂	1000
+3	၃	1000
+4	၄	1000
+5	၅	1000
+6	၆	1000
+7	၇	1000
+8	၈	1000
+9	၉	1000
+0	၀	1000
+!	ဍ	1000
+@	ၒ	1000
+#	ဋ	1000
+$	ၓ	1000
+%	ၔ	1000
+^	ၕ	1000
+&	ရ	1000
+[	ဟ	1000
+]	ဩ	1000
+\	၏	1000
+{	ဧ	1000
+}	ဪ	1000
+|	ၑ	1000
+;	း	1000
+:	ဂ	1000
+<	၊	1000
+>	။	1000
+`	ၐ	1000
+~	ဎ	1000
+aus	ကျေ	500
+acs	ချေ	499
+a:s	ဂျေ	498
+aqs	ဆျေ	494
+aws	တျေ	485
+axs	ထျေ	484
+ays	ပျေ	480
+azs	ဖျေ	479
+aAs	ဗျေ	478
+abs	ဘျေ	477
+ars	မျေ	476
+aBs	ယျေ	475
+avs	လျေ	473
+auj	ကြေ	500
+acj	ခြေ	499
+a:j	ဂြေ	498
+aCj	ဃြေ	497
+aij	ငြေ	496
+apj	စြေ	495
+aqj	ဆြေ	494
+aZj	ဇြေ	493
+a~j	ဎြေ	487
+aPj	ဏြေ	486
+awj	တြေ	485
+axj	ထြေ	484
+aKj	ဒြေ	483
+ayj	ပြေ	480
+azj	ဖြေ	479
+aAj	ဗြေ	478
+abj	ဘြေ	477
+arj	မြေ	476
+aWj	ဝြေ	472
+aoj	သြေ	471
+a[j	ဟြေ	470
+auG	ကွေ	500
+acG	ခွေ	499
+a:G	ဂွေ	498
+aCG	ဃွေ	497
+aiG	ငွေ	496
+apG	စွေ	495
+aqG	ဆွေ	494
+aZG	ဇွေ	493
+a~G	ဎွေ	487
+aPG	ဏွေ	486
+awG	တွေ	485
+axG	ထွေ	484
+aKG	ဒွေ	483
+aLG	ဓွေ	482
+aeG	နွေ	481
+ayG	ပွေ	480
+azG	ဖွေ	479
+aAG	ဗွေ	478
+abG	ဘွေ	477
+arG	မွေ	476
+aBG	ယွေ	475
+a&G	ရွေ	474
+avG	လွေ	473
+aWG	ဝွေ	472
+aoG	သွေ	471
+a[G	ဟွေ	470
+atG	အွေ	468
+anS	ညှေ	491
+aPS	ဏှေ	486
+aeS	နှေ	481
+arS	မှေ	476
+aBS	ယှေ	475
+a&S	ရှေ	474
+avS	လှေ	473
+aWS	ဝှေ	472
+arsS	မျှေ	476
+aBsS	ယျှေ	475
+avsS	လျှေ	473
+ayjS	ပြှေ	480
+azjS	ဖြှေ	479
+aAjS	ဗြှေ	478
+arjS	မြှေ	476
+ausG	ကျွေ	500
+acsG	ချွေ	499
+a:sG	ဂျွေ	498
+aujG	ကြွေ	500
+acjG	ခြွေ	499
+a:jG	ဂြွေ	498
+aijG	ငြွေ	496
+aKjG	ဒြွေ	483
+ayjG	ပြွေ	480
+azjG	ဖြွေ	479
+aAjG	ဗြွေ	478
+arjG	မြွေ	476
+a[jG	ဟြွေ	470
+ausGS	ကျွှေ	500
+acsGS	ချွှေ	499
+a:sGS	ဂျွှေ	498
+avsGS	လျွှေ	473
+arjGS	မြွှေ	476
+END_TABLE
