@@ -409,4 +409,5 @@ acsGS	ချွှေ	499
 a:sGS	ဂျွှေ	498
 avsGS	လျွှေ	473
 arjGS	မြွှေ	476
+aeFKj	န္ဒြေ	300
 END_TABLE
