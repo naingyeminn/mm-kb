@@ -43,6 +43,7 @@ Now you can add the keyboard as follow.
 
 After installation, your system font will be changed into **ZawGyi-One**. If you want to switch to **Unicode** fonts, search **Myanmar Font Switcher** by clicking the grid button at the bottom of the dash and run it. You can change the font you want in there.
 
+## Installation on Ubuntu 18.04 LTS (Video)
 [![mm-kb Installation on Ubuntu 18.04 LTS](https://img.youtube.com/vi/LGDopj6D6PI/0.jpg)](https://www.youtube.com/watch?v=LGDopj6D6PI)
 
 ## Uninstallation
