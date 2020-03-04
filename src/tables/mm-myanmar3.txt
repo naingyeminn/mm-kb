@@ -77,7 +77,7 @@ SHOW_KEY_PROMPT = TRUE
 DISCARD_INVALID_KEY = FALSE
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*\|[{]};:'",<>?/`
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*\|[{]};:'",<>?/`~
 
 ### Whether user are allow to define phrase, default is true
 USER_CAN_DEFINE_PHRASE = FALSE
