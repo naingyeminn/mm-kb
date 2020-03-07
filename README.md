@@ -33,7 +33,7 @@ Now you can add the keyboard as follow.
 
 - Click on **"+"** button and search **Burmese** input. You will see Burmese, Burmese (mm-smart), Burmese (mm-myanmar3), and Burmese (mm-zawgyi).
 
-- Add **Burmese (mm-myanmar3)** or **Burmese (mm-smart)** for ***Unicode*** keyboard and **Burmese (mm-zawgyi)** for ***ZawGyi-One*** keyboard.
+- **Burmese (mm-myanmar3)**, **Burmese (mm-smart)**, and **Burmese (mm-zawnicode)** are for ***Unicode*** input and **Burmese (mm-zawgyi)** is for ***ZawGyi-One*** input. **mm-zawnicode** is the ***Unicode*** input with **ZawGyi-One** keyboard layout.
 
 - Now you can change keyboard layout by pressing (**Super + Space**) key.
 
