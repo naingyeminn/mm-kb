@@ -24,7 +24,7 @@ SERIAL_NUMBER = 20200306
 ICON = mm-myanmar3.svg
 
 ### The default name of this table
-NAME = mm-zguni
+NAME = mm-zawnicode
 
 ### The local names of this table
 ### NAME.my_MM =
