@@ -37,7 +37,7 @@ Now you can add the keyboard as follow.
 
 - Now you can change keyboard layout by pressing (**Super + Space**) key.
 
-- Whatever you are using, Burmese (mm-myanmar3/mm-smart) or Burmese (mm-zawgyi), you can switch between Burmese and English characters by a single press of **Left Shift** key.
+- Whatever you are using, **Burmese (mm-myanmar3 / mm-smart / mm-zawnicode)** or **Burmese (mm-zawgyi)**, you can switch between Burmese and English input by a single press of **Left Shift** key.
 
 ## Changing System Fallback Font
 
