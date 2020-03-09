@@ -17,6 +17,7 @@ $ sudo apt install make ibus-table -y
 $ sudo make install
 $ ibus-daemon -rdx
 $ im-config -n ibus
+$ mmfs
 ```
 
 **Or**
