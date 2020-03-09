@@ -17,5 +17,6 @@ uninstall:
 	rm -rfv /usr/share/mmfs
 	rm -fv /usr/share/applications/myanmar-font-switcher.desktop
 	rm -fv /usr/local/bin/mmfs
+	rm -fv ~/.config/fontconfig/fonts.conf
 
 .PHONY: install uninstall
