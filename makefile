@@ -12,6 +12,7 @@ install: uninstall
 
 uninstall:
 	rm -fv /usr/share/ibus-table/tables/mm*
+	rm -fv /usr/share/ibus-table/tables/shn*
 	rm -fv /usr/share/ibus-table/icons/mm-myanmar3.svg
 	rm -fv /usr/share/ibus-table/icons/mm-zawgyi.svg
 	rm -rfv /usr/share/fonts/mm
