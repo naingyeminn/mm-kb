@@ -40,6 +40,8 @@ Now you can add the keyboard as follow.
 
 - Whatever you are using, **Burmese (mm-myanmar3 / mm-smart / mm-zawnicode)** or **Burmese (mm-zawgyi)**, you can switch between Burmese and English input by a single press of **Left Shift** key.
 
+- **Shan (shn-panglong)** input is also included and based on Pang Long layout. It can be find under **Others** input group.
+
 ## Changing System Fallback Font
 
 After installation, your system font will be changed into **ZawGyi-One**. If you want to switch to **Unicode** fonts, search **Myanmar Font Switcher** by clicking the grid button at the bottom of the dash and run it. You can change the font you want in there.
