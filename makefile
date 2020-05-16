@@ -3,6 +3,7 @@ install: uninstall
 	ibus-table-createdb -n /usr/share/ibus-table/tables/mm-smart.db -s ./src/tables/mm-smart.txt
 	ibus-table-createdb -n /usr/share/ibus-table/tables/mm-zawgyi.db -s ./src/tables/mm-zawgyi.txt
 	ibus-table-createdb -n /usr/share/ibus-table/tables/mm-zawnicode.db -s ./src/tables/mm-zawnicode.txt
+	ibus-table-createdb -n /usr/share/ibus-table/tables/shn-panglong.db -s ./src/tables/shn-panglong.txt
 	cp -fv ./src/icons/*.svg /usr/share/ibus-table/icons
 	test -d /usr/share/fonts/mm || mkdir -p /usr/share/fonts/mm && cp ./src/fonts/*.ttf /usr/share/fonts/mm
 	test -d /usr/share/mmfs || mkdir -p /usr/share/mmfs && cp ./src/mmfs/* /usr/share/mmfs/
