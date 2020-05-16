@@ -5,7 +5,6 @@ declare -a checkList=(Myanmar3
 			Pyidaungsu
 			Ours-Unicode
 			TharLon
-			Zawgyi-One
 			Noto\ Sans\ Myanmar
 			Myanmar\ Census
 			MON3\ Anonta\ 1)
@@ -18,7 +17,7 @@ do
 	fi
 done
 
-FONT=$(	zenity --list --radiolist --title="Myanmar Font Switcher" --width=100 --height=300 2> /dev/null --text="Choose a System Fallback Font you like..." --column="Check:" --column="Font Name:" "${checkList[0]}" "Myanmar3" "${checkList[1]}" "Pyidaungsu" "${checkList[2]}" "Ours-Unicode" "${checkList[3]}" "TharLon" "${checkList[4]}" "Zawgyi-One" "${checkList[5]}" "Noto Sans Myanmar" "${checkList[6]}" "Myanmar Census" "${checkList[7]}" "MON3 Anonta 1")
+FONT=$(	zenity --list --radiolist --title="Myanmar Font Switcher" --width=100 --height=300 2> /dev/null --text="Choose a System Fallback Font you like..." --column="Check:" --column="Font Name:" "${checkList[0]}" "Myanmar3" "${checkList[1]}" "Pyidaungsu" "${checkList[2]}" "Ours-Unicode" "${checkList[3]}" "TharLon" "${checkList[4]}" "Noto Sans Myanmar" "${checkList[5]}" "Myanmar Census" "${checkList[6]}" "MON3 Anonta 1")
 
 if [[ $FONT ]]; then
 	if [ -f ~/.fonts.conf ]; then
@@ -35,7 +34,6 @@ if [[ $FONT ]]; then
 	sed -i "s/Pyidaungsu/$FONT/g" $CONFIG
 	sed -i "s/Ours-Unicode/$FONT/g" $CONFIG
 	sed -i "s/TharLon/$FONT/g" $CONFIG
-	sed -i "s/Zawgyi-One/$FONT/g" $CONFIG
 	sed -i "s/Noto Sans Myanmar/$FONT/g" $CONFIG
 	sed -i "s/Myanmar Census/$FONT/g" $CONFIG
 	sed -i "s/MON3 Anonta 1/$FONT/g" $CONFIG
