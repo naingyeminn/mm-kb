@@ -40,7 +40,7 @@ Now you can add the keyboard as follow.
 
 - Whatever you are using, **Burmese (mm-myanmar3 / mm-smart / mm-zawnicode)** or **Burmese (mm-zawgyi)**, you can switch between Burmese and English input by a single press of **Left Shift** key.
 
-- **Shan (shn-panglong)** input is also included and based on Pang Long layout. It can be fond under **Others** input group using search.
+- **Shan (shn-standard)** and **Shan (shn-panglong)** inputs are also included and can be fond under **Others** input group using search.
 
 ## Changing System Fallback Font
 
