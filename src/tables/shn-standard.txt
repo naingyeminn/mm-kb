@@ -1,0 +1,396 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+### This file comes from xcin module.
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### License
+LICENSE = LGPL
+
+### Created by Naing Ye Minn <naingyeminn@gmail.com>
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = 393e4dec-48e7-48f6-9b60-9b850e94a630
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20200513
+
+ICON = mm-myanmar3.svg
+
+### The default name of this table
+NAME = shn-standard
+
+### The local names of this table
+### NAME.my_MM =
+
+### Supported languages of this table
+LANGUAGES = shn_MM
+
+### The author of this table
+AUTHOR = Naing Ye Minn <naingyeminn@gmail.com>
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = MM
+
+### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
+KEYBOARD_LAYOUT = US_Default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = TRUE
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = FALSE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = FALSE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = FALSE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### If true then discard invalid key
+DISCARD_INVALID_KEY = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 3
+
+### Show key prompt if true
+SHOW_KEY_PROMPT = TRUE
+
+### Discard invalude key if true
+DISCARD_INVALID_KEY = FALSE
+
+### Valid input chars.
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890;:><`!@#$%^&*()
+
+### Single wildcard char, can have multiple chars.
+SINGLE_WILDCARD_CHAR = `
+
+### Multi wildcard char.
+### MULTI_WILDCARD_CHAR =
+
+### The key strokes to split inputted string.
+### SPLIT_KEYS = Return
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space
+
+### The key strokes to forward the inputted string to client.
+### FORWARD_KEYS = space
+
+### The key strokes to select candidate phrases.
+SELECT_KEYS = 1,2,3,4,5,6,7,8,9
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Shift+less,Page_Up,comma,minus
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Shift+greater,Page_Down,period,equal,space
+
+### Define the prompts of each valid input char.
+BEGIN_CHAR_PROMPTS_DEFINITION
+a	ေ
+b	ယ
+c	ၶ
+d	ိ
+e	ၼ
+f	်
+g	ွ
+h	ႉ
+i	င
+j	ႇ
+k	ု
+l	ူ
+m	ၢ
+n	ၺ
+o	ဝ
+p	ႁ
+q	ၸ
+r	မ
+s	ႄ
+t	​ဢ
+u	ၵ
+v	လ
+w	တ
+x	ထ
+y	ပ
+z	ၽ
+A	ဵ
+B	ျ
+C	ခ
+D	ီ
+E	ꧣ
+F	ႂ်
+G	ႂ
+H	့
+I	ရ
+J	ႆ
+K	ꧦ
+L	ႊ
+M	ႃ
+N	႟
+O	သ
+P	ႀ
+Q	ꩡ
+R	႞
+S	ႅ
+T	ြ
+U	ၷ
+V	ꩮ
+W	ၻ
+X	ꩪ
+Y	ၿ
+Z	ၾ
+1	1
+2	2
+3	3
+4	4
+5	5
+6	6
+7	7
+8	8
+9	9
+0	0
+!	!
+@	@
+#	#
+$	$
+%	%
+^	^
+&	&
+*	*
+(	(
+)	)
+;	ႈ
+:	း
+<	၊
+>	။
+END_CHAR_PROMPTS_DEFINITION
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+a	ေ	1000
+b	ယ	1000
+c	ၶ	1000
+d	ိ	1000
+e	ၼ	1000
+f	်	1000
+g	ွ	1000
+h	ႉ	1000
+i	င	1000
+j	ႇ	1000
+k	ု	1000
+l	ူ	1000
+m	ၢ	1000
+n	ၺ	1000
+o	ဝ	1000
+p	ႁ	1000
+q	ၸ	1000
+r	မ	1000
+s	ႄ	1000
+t	​ဢ	1000
+u	ၵ	1000
+v	လ	1000
+w	တ	1000
+x	ထ	1000
+y	ပ	1000
+z	ၽ	1000
+A	ဵ	1000
+B	ျ	1000
+C	ခ	1000
+D	ီ	1000
+E	ꧣ	1000
+F	ႂ်	1000
+G	ႂ	1000
+H	့	1000
+I	ရ	1000
+J	ႆ	1000
+K	ꧦ	1000
+L	ႊ	1000
+M	ႃ	1000
+N	႟	1000
+O	သ	1000
+P	ႀ	1000
+Q	ꩡ	1000
+R	႞	1000
+S	ႅ	1000
+T	ြ	1000
+U	ၷ	1000
+V	ꩮ	1000
+W	ၻ	1000
+X	ꩪ	1000
+Y	ၿ	1000
+Z	ၾ	1000
+1	1	1000
+2	2	1000
+3	3	1000
+4	4	1000
+5	5	1000
+6	6	1000
+7	7	1000
+8	8	1000
+9	9	1000
+0	0	1000
+!	!	1000
+@	@	1000
+#	#	1000
+$	$	1000
+%	%	1000
+^	^	1000
+&	&	1000
+*	*	1000
+(	(	1000
+)	)	1000
+;	ႈ	1000
+:	း	1000
+<	၊	1000
+>	။	1000
+`1	႑	1000
+`2	႒	1000
+`3	႓	1000
+`4	႔	1000
+`5	႕	1000
+`6	႖	1000
+`7	႗	1000
+`8	႘	1000
+`9	႙	1000
+`0	႐	1000
+`q	ၹ	1000
+`w	ꩦ	1000
+`s	ꧥ	1000
+`z	ꧤ	1000
+`x	ꩧ	1000
+`o	ꧡ	1000
+`!	၁	1000
+`@	၂	1000
+`#	၃	1000
+`$	၄	1000
+`%	၅	1000
+`^	၆	1000
+`&	၇	1000
+`*	၈	1000
+`(	၉	1000
+`)	၀	1000
+`W	ꩨ	1000
+`X	ꩩ	1000
+`O	ꧢ	1000
+`u	﻿ၵ	1000
+`c	ၶ	1000
+`i	င	1000
+`n	ၺ	1000
+`e	ၼ	1000
+`y	ပ	1000
+`r	မ	1000
+`b	ယ	1000
+`I	ရ	1000
+`v	လ	1000
+`p	ႁ	1000
+a`t	ဢေ	1000
+a`u	﻿ၵေ	1000
+a`c	ၶေ	1000
+a`i	ငေ	1000
+a`n	ၺေ	1000
+a`e	ၼေ	1000
+a`y	ပေ	1000
+a`r	မေ	1000
+a`b	ယေ	1000
+a`I	ရေ	1000
+a`v	လေ	1000
+a`p	ႁေ	1000
+a`t	ဢေ	1000
+a`	ေ	1000
+s`	ႄ	1000
+au	﻿ၵေ	1000
+auB	ၵျေ	1000
+ac	ၶေ	1000
+ai	ငေ	1000
+aq	ၸေ	1000
+a`q	ၹေ	1000
+aO	သေ	1000
+an	ၺေ	1000
+aw	တေ	1000
+a`w	ꩦေ	1000
+a`W	ꩨေ	1000
+awT	တြေ	1000
+ax	ထေ	1000
+a`x	ꩧေ	1000
+a`X	ꩩေ	1000
+ae	ၼေ	1000
+ay	ပေ	1000
+az	ၽေ	1000
+a`z	ꧤေ	1000
+aZ	ၾေ	1000
+ar	မေ	1000
+ab	ယေ	1000
+aI	ရေ	1000
+av	လေ	1000
+ao	ဝေ	1000
+a`o	ꧡေ	1000
+a`O	ꧢေ	1000
+ap	ႁေ	1000
+at	ဢေ	1000
+su	ၵႄ	1000
+sc	ၶႄ	1000
+si	ငႄ	1000
+sq	ၸႄ	1000
+s`q	ၹႄ	1000
+sO	သႄ	1000
+sn	ၺႄ	1000
+sw	တႄ	1000
+s`w	ꩦႄ	1000
+s`W	ꩨႄ	1000
+sx	ထႄ	1000
+s`x	ꩧႄ	1000
+s`X	ꩩႄ	1000
+se	ၼႄ	1000
+sy	ပႄ	1000
+sz	ၽႄ	1000
+s`z	ꧤႄ	1000
+sZ	ၾႄ	1000
+sr	မႄ	1000
+sb	ယႄ	1000
+sI	ရႄ	1000
+sv	လႄ	1000
+so	ဝႄ	1000
+s`o	ꧡႄ	1000
+s`O	ꧢႄ	1000
+sp	ႁႄ	1000
+st	ဢႄ	1000
+s`u	﻿ၵႄ	1000
+s`c	ၶႄ	1000
+s`i	ငႄ	1000
+s`n	ၺႄ 	1000
+s`e	ၼႄ	1000
+s`y	ပႄ	1000
+s`r	မႄ	1000
+s`b	ယႄ 	1000
+s`I	ရႄ	1000
+s`v	လႄ	1000
+s`p	ႁႄ	1000
+s`t	ဢႄ	1000
+END_TABLE
