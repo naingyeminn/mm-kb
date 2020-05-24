@@ -85,7 +85,7 @@ SHOW_KEY_PROMPT = TRUE
 DISCARD_INVALID_KEY = FALSE
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*\|[{]};:'",<>`~
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*\|[{]};:<>`~
 
 ### Single wildcard char, can have multiple chars.
 ### SINGLE_WILDCARD_CHAR = ?
