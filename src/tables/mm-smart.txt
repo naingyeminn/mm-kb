@@ -19,7 +19,7 @@ UUID = 858cd0a5-093f-484c-81d1-a784e4d4aa1d
 ### A unique number indicates the version of this file.
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
-SERIAL_NUMBER = 20200301
+SERIAL_NUMBER = 20260416
 
 ICON = mm-myanmar3.svg
 
@@ -85,7 +85,7 @@ SHOW_KEY_PROMPT = TRUE
 DISCARD_INVALID_KEY = FALSE
 
 ### Valid input chars.
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*\|[{]};:<>`~
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&\|[{]};:<>`~
 
 ### Single wildcard char, can have multiple chars.
 ### SINGLE_WILDCARD_CHAR = ?
